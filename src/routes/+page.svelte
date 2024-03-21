@@ -61,7 +61,7 @@
         />
         {#if isButtonVisible == true}
             {#if pooped == true}
-                <button out:blur on:click={handleStart} class="absolute rounded-full bg-stone-950 text-stone-50 px-6 py-2 hover:scale-125 transition ease-in-out">BUT YOU POOPED THE PARTY</button>
+                <button out:blur on:click={handleStart} class="absolute rounded-full bg-stone-950 text-stone-50 px-6 py-2 hover:scale-125 transition ease-in-out">YOU POOPED THE PARTY</button>
             {:else}
                 <button out:blur on:click={handleStart} class="absolute rounded-full bg-stone-950 text-stone-50 px-6 py-2 hover:scale-125 transition ease-in-out">PARTY TIME!!</button>
             {/if}
